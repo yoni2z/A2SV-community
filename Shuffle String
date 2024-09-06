@@ -5,8 +5,6 @@ class Solution:
         for i in range(len(s)):
             shuffled[indices[i]] = s[i]
 
-        newStr = ""
-        for i in shuffled:
-            newStr += i
+        newStr = "".join(shuffled)
 
         return newStr
